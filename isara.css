@@ -5,34 +5,30 @@ header{
     top:0;
 }
 
+p{
+    margin:0;
+}
+
 .contact{
-    position:absolute;
-    display:inline-block;
-    width:50%;
 }
 
 .title{
     width:1170px;
-    height:75px;
-    position:relative;
-    padding:0;
+    padding:20px 0;
     display:flex;
+    align-items:center;
+    margin:0 auto;
 }
 
 .toplogo{
     width:128px;
-    left:0;
-    top:0;
-    display:inline-block;
 }
 
 .subtitle{
     font-size:12px;
     font-weight:600;
-    display:inline-block;
-    left:250px;
-    top:20px;
-    width:204px;
+    align-self:flex-end;
+    letter-spacing:1.5px;
 }
 
 .btn{
@@ -40,11 +36,9 @@ header{
     border-radius:25px;
     color:#fff;
     cursor:pointer;
-    left:1100px;
     padding:11px 40px; 
     z-index:10;
-    margin:0;
-    display:inline-block;
+    margin-left:auto;
 }
 
 .contacttxt{
