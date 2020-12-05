@@ -1,0 +1,420 @@
+header{
+    position:fixed;
+    background-color:#fff;
+    width:100%;
+    top:0;
+}
+
+.contact{
+    position:absolute;
+    display:inline-block;
+    width:50%;
+}
+
+.title{
+    width:1170px;
+    height:75px;
+    position:relative;
+    padding:0;
+    display:flex;
+}
+
+.toplogo{
+    width:128px;
+    left:0;
+    top:0;
+    display:inline-block;
+}
+
+.subtitle{
+    font-size:12px;
+    font-weight:600;
+    display:inline-block;
+    left:250px;
+    top:20px;
+    width:204px;
+}
+
+.btn{
+    background-color:#da6b64;
+    border-radius:25px;
+    color:#fff;
+    cursor:pointer;
+    left:1100px;
+    padding:11px 40px; 
+    z-index:10;
+    margin:0;
+    display:inline-block;
+}
+
+.contacttxt{
+    font-size:12px;
+    font-weight:300;
+}
+
+.container{
+    height:500px;
+}
+
+
+.intro{
+    text-align:center;
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg");
+    height:500px;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:75px;
+    background-position:center;
+}
+
+
+
+.txt{
+    font-size:24px;
+    font-weight:600;
+}
+
+.logolarge{
+    width:317px;
+}
+
+.txtm{
+    font-size:16px;
+    font-weight:600;
+}
+
+.term{
+    background-color:#ebb94d;
+    color:#fff;
+    text-align:center;
+    padding:30px 0;
+}
+
+code{
+    background-color:#f9f2f4;
+    color:#c7254e;
+    padding:2px 4px;
+    border-radius:4px;
+}
+
+.conversionbtn{
+    background-color:#da6b64;
+    cursor:pointer;
+    padding:25px 50px;
+    margin:10px 80px;
+    max-width:1028px;
+    border-radius:50px;
+}
+
+.conversionbtn p{
+    margin:0;
+}
+
+.txtl{
+    font-weight:600;
+}
+
+.txtxs{
+    font-size:12px;
+    font-weight:300;
+}
+
+.txtxl{
+    font-size:150%;
+    font-weight:600;
+}
+
+div{
+    display:block;
+}
+
+.question{
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:40px 0;
+    background-position:center;
+    height:587px;
+}
+
+.yellow{
+    position:relative;
+    padding:15px 30px;
+    margin:0 auto;
+    box-sizing:border-box;
+    width:860px;
+}
+
+.yellow:before{
+    content:"";
+    width:50px;
+    height:50px;
+    border-left:solid 4px #ebb94d;
+    border-top:solid 4px #ebb94d;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.yellow:after{
+    content:"";
+    width:50px;
+    height:50px;
+    border-right:solid 4px #ebb94d;
+    border-bottom:solid 4px #ebb94d;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+.line{
+    font-weight:bold;
+    background:linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.question p{
+    margin-bottom:2.4rem;
+    font-weight:300;
+}
+
+.about{
+    padding:0 0 40px 0;
+    background-color:#fef5e0;
+    text-align:center;
+}
+
+.iconbox{
+    position:relative;
+    top:-40px;
+}
+
+.circle{
+    background-color:#ebb94d;
+    color:#fff;
+    width:80px;
+    height:80px;
+    padding:0;
+    margin:0;
+    line-height:80px;
+    border-radius:50%;
+    display:inline-block;
+}
+
+.yellowbucket{
+    margin:0 auto;
+    padding:15px 30px;
+    width:860px;
+}
+
+.box{
+    display:inline-block;
+    padding:10px;
+}
+
+.aboutsecond{
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg");
+    background-size:cover;
+    padding:40px 0;
+    text-align:center;
+    background-position:center;
+}
+
+.aboutsecond h2, .aboutsecond .txtm{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.txts{
+    font-size:14px;
+    font-weight:600;
+}
+
+.steplists{
+    padding:0 20%;
+}
+
+.step{
+    background-color:#ebb94d;
+    border-radius:5px;
+}
+
+.sidebox{
+    background-color:#fff;
+    padding:30px 30px 20px;
+    width:60%;
+    border-radius:5px;
+    margin:0 20% 20px;
+}
+
+.yellowtxt{
+    color:#ebb94d;
+    margin-top:0;
+}
+
+.aboutthird{
+    background-color:#016ea9;
+    text-align:center;
+    color:#fff;
+    padding:40px 0;
+}
+
+.aboutthird p{
+    margin:0;
+}
+
+.learning{
+    text-align:center;
+    padding:40px 0;
+}
+
+.icon{
+    display:inline-block;
+    padding:20px;
+}
+
+.wrap{
+    padding:0;
+    
+    margin:40px auto;
+    
+}
+
+img{
+    height:auto;
+    vertical-align:middle;
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+}
+
+.merits{
+    text-align:center;
+    background-color:#fef5e0;
+    padding:30px 50px;
+}
+
+.contents{
+    margin-top:40px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.learnbox{
+    margin-bottom:20px;
+    display:inline-block;
+}
+
+.learnpic1{
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromfreelancer.jpg");
+    height:180px;
+    background-size:cover;
+    background-position:center;
+    width:300px;
+    margin:auto;
+}
+
+.learnfromfreelancer{
+    padding:0 20px;
+}
+
+.learnpic2{
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromprojects.jpg");
+    background-size:cover;
+    background-position:center;
+    height:180px;
+    width:300px;
+    margin:auto;
+}
+
+.learnpractical{
+    padding:0 20px;
+}
+
+.learnpic3{
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/actuallyfree.jpg");
+    height:180px;
+    background-position:center;
+    background-size:cover;
+    width:300px;
+    margin:0 auto;
+}
+
+.learnforfree{
+    padding:0 20px;
+}
+
+.merits .contents .row div p{
+    margin:8px 0;
+}
+
+div{
+    display:block;
+}
+
+.support{
+    background-color:#fff;
+    border:solid;
+    border-color:#ebb94d;
+    padding:40px 20px;
+    margin:40px auto;
+}
+
+.teachers{
+    color:#fff;
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg");
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    padding:50px;
+}
+
+.teacherbox img{
+    border-radius:50%;
+    bottom:-35px;
+    position:relative;
+}
+
+.teacherbox{
+    width:33%;
+    padding-right:15px;
+    padding-left:15px;
+    display:inline-block;
+}
+
+.detail{
+    padding:40px;
+    border:solid;
+    border-color:#fff;
+}
+
+.teachertxt{
+    font-size:14px;
+}
+
+.why{
+    background-color:#ebb94d;
+    padding:40px 0;
+    text-align:center;
+}
+
+.circle2{
+    color:#ebb94d;
+    background-color:#fff;
+    border-radius:50%;
+    border:solid;
+    text-align:center;
+    padding:0;
+    margin:0;
+    font-size:20px;
+    width:80px;
+    height:80px;
+    line-height:80px;
+    display:inline-block;
+}
+
+
