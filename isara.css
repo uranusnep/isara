@@ -520,6 +520,71 @@ ul{
     background-size:cover;
     color:#fff;
     padding:40px 0;
+    letter-spacing:1.5px;
 }
 
+.bangkokdetail{
+    width:1170px;
+    margin:0 auto;
+}
+
+.bangkoklist{
+    margin:20px 0;
+}
+
+.bangkok .bangkokdetail p{
+    margin:0 0 10px;
+}
+
+
+
+.specialdetail{
+    background-image:url("https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg");
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    text-align:center;
+    padding:40px;
+}
+
+.specialdetail .txtl{
+    margin:20px 0;
+}
+
+.specialdetail h2{
+    padding:15px 30px;
+}
+
+.specialdetail .txtm{
+    margin-bottom:40px;
+}
+
+.whitebox{
+    margin:0 auto;
+    position:relative;
+    width:860px;
+    padding:15px 30px;
+    box-sizing:border-box;
+}
+
+.whitebox::before, .whitebox::after{
+    position:absolute;
+    width:50px;
+    height:50px;
+    content:"";
+}
+
+.whitebox::before{
+    top:0;
+    left:0;
+    border-top:4px solid #fff;
+    border-left:4px solid #fff;
+}
+
+.whitebox::after{
+    right:0;
+    bottom:0;
+    border-right:4px solid #fff;
+    border-bottom:4px solid #fff;
+}
 
