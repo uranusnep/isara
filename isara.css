@@ -9,12 +9,27 @@ p{
     margin:0;
 }
 
+body{
+    margin:0;
+    letter-spacing:1.5px;
+}
+
 .title{
     width:1170px;
     padding:20px 0;
     display:flex;
     align-items:center;
     margin:0 auto;
+}
+
+.hero-text{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.hero-subtext{
+    font-size:20px;
+    font-weight:bold;
 }
 
 .toplogo{
@@ -25,7 +40,6 @@ p{
     font-size:12px;
     font-weight:600;
     align-self:flex-end;
-    letter-spacing:1.5px;
 }
 
 .btn{
@@ -52,6 +66,7 @@ p{
     display:flex;
     justify-content:center;
     align-items:center;
+    padding-top:85px;
 }
 
 
@@ -74,8 +89,12 @@ p{
 }
 
 .txtm{
-    font-size:16px;
+    font-size:20px;
     font-weight:600;
+}
+
+.txtm p{
+    margin-bottom:10px;
 }
 
 .term{
@@ -85,11 +104,14 @@ p{
     padding:30px 0;
 }
 
-code{
+
+
+.term-notice{
     background-color:#f9f2f4;
     color:#c7254e;
     padding:2px 4px;
     border-radius:4px;
+    font-weight:normal;
 }
 
 .conversionbtn{
@@ -102,13 +124,17 @@ code{
     align-items:center;
 }
 
+.conversionbtn:hover{
+    background-color:#d84940;
+}
+
 .conversionbtn p{
     margin:0;
 }
 
 .txtl{
     font-weight:600;
-    font-size:24px;
+    font-size:28px;
 }
 
 .txtxs{
@@ -117,8 +143,9 @@ code{
 }
 
 .txtxl{
-    font-size:150%;
+    font-size:21px;
     font-weight:600;
+    margin-bottom:33px;
 }
 
 div{
@@ -133,6 +160,10 @@ div{
     padding:40px 0;
     background-position:center;
     height:587px;
+}
+
+.question p{
+    font-size:20px;
 }
 
 .yellow{
@@ -211,6 +242,16 @@ div{
     padding:30px;
     border:solid;
     border-color:#ebb94d;
+    box-sizing:border-box;
+}
+
+.aboutbox .txtm{
+    margin-bottom:10px;
+}
+
+.box-text{
+    font-size:12px;
+    margin:10px 0;
 }
 
 .box{
@@ -237,20 +278,44 @@ div{
 }
 
 .steplists{
-    padding:0 20%;
+}
+
+.steplists-container{
+    display:flex;
+    box-sizing:border-box;
+    width:1170px;
+    margin:0 auto;
 }
 
 .step{
     background-color:#ebb94d;
     border-radius:5px;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:30px;
 }
 
 .sidebox{
     background-color:#fff;
     padding:30px 30px 20px;
-    width:60%;
+    width:33%;
     border-radius:5px;
-    margin:0 20% 20px;
+}
+
+.sidebox:nth-of-type(2){
+    margin:0 1.5%;
+}
+
+.sidecontents .txtxs{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.sidecontents .txts{
+    font-size:16px;
+    margin-bottom:10px;
 }
 
 .yellowtxt{
