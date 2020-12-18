@@ -339,16 +339,31 @@ div{
     padding:40px 0;
 }
 
+.learning .txtl{
+    margin-bottom:35px;
+}
+
+.learning .txtm{
+    font-weight:300;
+}
+
 .icon{
     display:inline-block;
     padding:20px;
 }
 
-.wrap{
-    padding:0;
-    width:auto;
+.middlewrap{
+    width:860px;
+    display:flex;
+    box-sizing:border-box;
+    align-items:center;
     margin:40px auto;
-    
+}
+
+.learning-text{
+    font-size:16px;
+    font-weight:600;
+    margin:0 0 10px;
 }
 
 img{
@@ -362,7 +377,11 @@ img{
 .merits{
     text-align:center;
     background-color:#fef5e0;
-    padding:30px 50px;
+    padding:40px 0;
+}
+
+.merits p{
+    margin:0 0 10px;
 }
 
 .contents{
@@ -373,8 +392,21 @@ img{
     margin-left:auto;
 }
 
+.row{
+    width:1170px;
+    display:flex;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+
 .learnbox{
     margin-bottom:20px;
+    width:33.33333333%;
+    padding:0 15px;
+}
+
+.merits .learnbox{
+    text-align:left;
 }
 
 .learnpic1{
@@ -382,7 +414,6 @@ img{
     height:180px;
     background-size:cover;
     background-position:center;
-    width:300px;
     margin:auto;
 }
 
@@ -395,8 +426,7 @@ img{
     background-size:cover;
     background-position:center;
     height:180px;
-    width:300px;
-    margin:auto;
+    margin:0 1.5%;
 }
 
 .learnpractical{
@@ -408,7 +438,6 @@ img{
     height:180px;
     background-position:center;
     background-size:cover;
-    width:300px;
     margin:0 auto;
 }
 
@@ -420,13 +449,27 @@ img{
     margin:8px 0;
 }
 
-
 .support{
     background-color:#fff;
     border:solid;
     border-color:#ebb94d;
     padding:40px 20px;
     margin:40px auto;
+    width:1170px;
+}
+
+.support p{
+    margin:0 0 10px;
+}
+
+.support-text{
+    font-size:16px;
+    font-weight:600;
+}
+
+.detail-text{
+    font-size:14px;
+    font-weight:300;
 }
 
 .teachers{
@@ -435,7 +478,18 @@ img{
     background-position:center;
     background-size:cover;
     text-align:center;
-    padding:50px;
+    padding:40px 0;
+}
+
+.member-text{
+    font-size:16px;
+    font-weight:600;
+}
+
+.middle-teacherbox{
+    width:1170px;
+    display:flex;
+    margin:0 auto;
 }
 
 .teacherbox img{
@@ -512,23 +566,35 @@ img{
     margin:0;
 }
 
-.answer .client{
+.client{
     padding:20px 0;
     font-size:18px;
     text-align:left;
     font-style:italic;
     color:#777;
     margin:0 auto;
+    width:66.66666667%;
+    display:flex;
+}
+
+.middle-client{
+    width:1170px;
+    margin:0 auto;
 }
 
 .col{
     width:33.33333333%;
-    padding-left:0;
+    padding-right:15px;
 }
 
 .col8{
     width:66.66666667%;
-    padding-left:0;
+    padding-left:15px;
+}
+
+small{
+    margin-top:10px;
+    text-decoration:underline;
 }
 
 .class{
@@ -541,16 +607,25 @@ img{
 }
 
 .classbox{
-    width:50%;
-    margin-top:15px;
+    width:780px;
     display:flex;
-    align-items:center;
-    justify-content:center;
+    margin:0 auto;
+    padding:40px 0;
+    margin-top:15px;
 }
 
 .class .classwrap .txtm{
     background-color:#016ea9;
     padding:15px;
+}
+
+.class h2{
+    margin-bottom:10px;
+}
+
+.class-text{
+    font-size:16px;
+    font-weight:600;
 }
 
 .classwrap{
@@ -560,14 +635,26 @@ img{
     border-radius:5px;
 }
 
+.classwrap ul{
+    margin:0;
+    padding:0;
+}
+
 .classlist{
     padding-right:15px;
     padding-left:15px;
+    width:50%;
 }
 
 ul{
     list-style:none;
     color:#000000;
+}
+
+.class ul li{
+    padding:10px;
+    font-size:16px;
+    font-weight:600;
 }
 
 .classbottom{
@@ -630,6 +717,7 @@ ul{
     width:860px;
     padding:15px 30px;
     box-sizing:border-box;
+    color:#fff;
 }
 
 .whitebox::before, .whitebox::after{
@@ -655,6 +743,7 @@ ul{
 
 .flow{
     text-align:center;
+    padding:40px 0;
 }
 
 .flowbox{
@@ -678,6 +767,85 @@ ul{
 .flowleft .txtm{
     margin-bottom:0;
     font-size:18px;
+}
+
+.flowline{
+    max-width:100%;
+    margin:0 auto;
+}
+
+.special{
+    background-color:#f7c23c;
+    padding:40px;
+    text-align:center;
+}
+
+.special h2{
+    margin-bottom:40px;
+}
+
+.special .txts{
+    font-size:16px;
+}
+
+.special p{
+    margin:0 0 auto;
+}
+
+.specialpeople{
+    position:relative;
+    bottom:-58px;
+    background-color:#f7c23c;
+    width:45%;
+    margin:0 auto;
+}
+
+.specialbox{
+    width:1170px;
+    display:flex;
+    border:solid;
+    border-color:#fff;
+    padding:40px;
+    margin:40px auto;
+}
+
+.whitetext{
+    color:#fff;
+}
+
+.tokuten{
+    background-color:#fff;
+    border-radius:50%;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.tokutenbox{
+    padding:15px;
+    height:250px;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+.special-text{
+    font-size:24px;
+    font-weight:300;
+    margin:0 10px auto;
+}
+
+.message{
+    text-align:center;
+}
+
+.middle-message{
+    width:860px;
+    margin:40px auto;
+}
+
+.message-box{
+    width:860px;
+    display:flex;
 }
 
 
