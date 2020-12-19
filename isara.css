@@ -3,6 +3,7 @@ header{
     background-color:#fff;
     width:100%;
     top:0;
+    z-index: 2;
 }
 
 p{
@@ -10,6 +11,7 @@ p{
 }
 
 body{
+    color: #333333;
     margin:0;
     letter-spacing:1.5px;
 }
@@ -380,8 +382,12 @@ img{
     padding:40px 0;
 }
 
-.merits p{
-    margin:0 0 10px;
+.merits .yellowtxt{
+    margin: 8px 0 8px 0;
+}
+
+.merits-title {
+    line-height: 40px;
 }
 
 .contents{
@@ -409,43 +415,25 @@ img{
     text-align:left;
 }
 
-.learnpic1{
+.learn-box-pic {
+    height:180px;
+    background-size:cover;
+    background-position:center;
+}
+
+.learn-box-pic--from-freelance{
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromfreelancer.jpg");
-    height:180px;
-    background-size:cover;
-    background-position:center;
-    margin:auto;
 }
 
-.learnfromfreelancer{
-    padding:0 20px;
-}
-
-.learnpic2{
+.learn-box-pic--learn-from-projects{
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromprojects.jpg");
-    background-size:cover;
-    background-position:center;
-    height:180px;
-    margin:0 1.5%;
 }
 
-.learnpractical{
-    padding:0 20px;
-}
-
-.learnpic3{
+.learn-box-pic--actually-free{
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/actuallyfree.jpg");
-    height:180px;
-    background-position:center;
-    background-size:cover;
-    margin:0 auto;
 }
 
-.learnforfree{
-    padding:0 20px;
-}
-
-.merits .contents .row div p{
+.learn-box-text {
     margin:8px 0;
 }
 
@@ -487,7 +475,7 @@ img{
 }
 
 .middle-teacherbox{
-    width:1170px;
+    width:1200px;
     display:flex;
     margin:0 auto;
 }
@@ -506,30 +494,54 @@ img{
 }
 
 .detail{
-    padding:40px;
-    border:solid;
-    border-color:#fff;
+    padding:40px 40px 0 40px;
+    border:3px solid #fff;
+    min-height: 370px;
 }
 
 .teachertxt{
-    font-size:14px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.teacertxt--self-introduction {
+    text-align: left;
 }
 
 .why{
     background-color:#ebb94d;
     padding:40px 0;
     text-align:center;
+    position: relative;
+}
+
+.why::after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.why .whitebox h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
 }
 
 .circle2{
     color:#ebb94d;
     background-color:#fff;
     border-radius:50%;
-    border:solid;
     text-align:center;
     padding:0;
     margin:0;
-    font-size:20px;
+    font-size:14px;
     width:80px;
     height:80px;
     line-height:80px;
@@ -543,7 +555,19 @@ img{
 
 .answer p{
     margin:0 0 10px;
-    text-align:center;
+}
+
+.answer .txts {
+    font-size: 16px;
+}
+
+.answer .txtxs {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.answer-description {
+    text-align: center;
 }
 
 .img-responsive{
@@ -752,6 +776,8 @@ ul{
     margin:0 auto;
     border-radius:10px;
     padding:10px 35px;
+    max-width: calc(100% - 40px);
+    overflow: hidden;
 }
 
 .flowleft{
