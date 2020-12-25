@@ -12,6 +12,7 @@ p{
 body{
     margin:0;
     letter-spacing:1.5px;
+    color:#333333;
 }
 
 .title{
@@ -418,7 +419,7 @@ img{
 }
 
 .learnfromfreelancer{
-    padding:0 20px;
+    padding:0;
 }
 
 .learnpic2{
@@ -430,7 +431,7 @@ img{
 }
 
 .learnpractical{
-    padding:0 20px;
+    padding:0;
 }
 
 .learnpic3{
@@ -442,7 +443,7 @@ img{
 }
 
 .learnforfree{
-    padding:0 20px;
+    padding:0;
 }
 
 .merits .contents .row div p{
@@ -513,6 +514,7 @@ img{
 
 .teachertxt{
     font-size:14px;
+    text-align:left;
 }
 
 .why{
@@ -752,6 +754,7 @@ ul{
     margin:0 auto;
     border-radius:10px;
     padding:10px 35px;
+    overflow:hidden;
 }
 
 .flowleft{
@@ -836,6 +839,11 @@ ul{
 
 .message{
     text-align:center;
+    padding:40px 0;
+}
+
+.message p{
+    margin:0 0 10px;
 }
 
 .middle-message{
@@ -848,6 +856,141 @@ ul{
     display:flex;
 }
 
+.left-pic{
+    padding:0 20px;
+    width:25%;
+}
+
+.right-text{
+    padding:0 20px;
+    text-align:left;
+    font-size:14px;
+    width:75%;
+}
+
+.contactform{
+    background-color:#ebb94d;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.contactform .txtl{
+    margin:20px 0;
+}
+
+.contact-for-free{
+    font-size:16px;
+    font-weight:600;
+}
+
+.questions{
+    padding:40px;
+    text-align:center;
+}
+
+.middle-form{
+    width:902px;
+    margin:0 auto;
+}
+
+#of-form input{
+    width:100%;
+    height:55px;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom:25px;
+    border:none;
+}
+
+.submit-button{
+    background-color:#da6b64;
+    color:#fff;
+    border-radius:50px;
+    font-size:23px;
+    font-weight:600;
+    padding:10px 80px;
+}
+
+.questions-list{
+    text-align:left;
+}
+
+.panel-group{
+    width:1170px;
+    margin:0 auto;
+}
+
+.panel-heading{
+    padding:20px;
+    background-color:#fff;
+    color:#000000;
+    border:1px solid #e5e5e5;
+}
+
+.panel-title{
+    margin-top:0;
+    margin-bottom:0;
+    font-size:16px;
+    display:flex;
+}
+
+.panel-title .far{
+    align-self:center;
+    color:#016ea9;
+}
+
+.panel-text{
+    font-size:20px;
+    font-weight:600;
+    align-self:center;
+}
+
+.panel-text:hover{
+    text-decoration:underline;
+}
+
+.question-circle{
+    color:#016ea9;
+}
+
+.question-toggle{
+    color:#e5e5e5;
+    margin-left:auto;
+    align-self:center;
+}
+
+.angle-up-toggle{
+    display:none;
+    margin-left:auto;
+    align-self:center;
+    color:#e5e5e5;
+}
+
+.questions-body{
+    padding:20px;
+    display:none;
+}
+
+.answer-text{
+    font-size:16px;
+    font-weight:600;
+}
+
+.footerwrap{
+    background-color:#ececec;
+    text-align:center;
+    padding:40px 15px 20px;
+}
+
+.copyright{
+    font-size:10px;
+    font-weight:300;
+    padding-bottom:5px;
+}
+
+a{
+    color:#337ab7;
+}
 
 
 
