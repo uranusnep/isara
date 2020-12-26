@@ -422,40 +422,19 @@ img{
     background-position:center;
 }
 
-<<<<<<< HEAD
-.learnfromfreelancer{
-    padding:0;
-=======
 .learn-box-pic--from-freelance{
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromfreelancer.jpg");
->>>>>>> 64281a6f63648680b4a2937dca8ac94d1fbeede2
 }
 
 .learn-box-pic--learn-from-projects{
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/learnfromprojects.jpg");
 }
 
-<<<<<<< HEAD
-.learnpractical{
-    padding:0;
-}
-
-.learnpic3{
-=======
 .learn-box-pic--actually-free{
->>>>>>> 64281a6f63648680b4a2937dca8ac94d1fbeede2
     background-image:url("https://isara.life/wp-content/themes/isara_v2/img/actuallyfree.jpg");
 }
 
-<<<<<<< HEAD
-.learnforfree{
-    padding:0;
-}
-
-.merits .contents .row div p{
-=======
 .learn-box-text {
->>>>>>> 64281a6f63648680b4a2937dca8ac94d1fbeede2
     margin:8px 0;
 }
 
@@ -522,10 +501,6 @@ img{
 }
 
 .teachertxt{
-<<<<<<< HEAD
-    font-size:14px;
-    text-align:left;
-=======
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 10px;
@@ -533,7 +508,6 @@ img{
 
 .teacertxt--self-introduction {
     text-align: left;
->>>>>>> 64281a6f63648680b4a2937dca8ac94d1fbeede2
 }
 
 .why{
@@ -803,12 +777,8 @@ ul{
     margin:0 auto;
     border-radius:10px;
     padding:10px 35px;
-<<<<<<< HEAD
-    overflow:hidden;
-=======
     max-width: calc(100% - 40px);
     overflow: hidden;
->>>>>>> 64281a6f63648680b4a2937dca8ac94d1fbeede2
 }
 
 .flowleft{
