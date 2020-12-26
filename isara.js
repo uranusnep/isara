@@ -1,11 +1,11 @@
 $(function(){
     
-    $(".panel-title").click(function(){
-        $(this).parent().next().slideToggle() 
+    $(".panel-heading").click(function(){
+        $(this).next().slideToggle() 
     });
     
-    $(".panel-title").click(function(){
-        $(this).children("div").toggleClass("angle-up-toggle")
+    $(".panel-heading").click(function(){
+        $(this).children(".question-toggle").toggleClass("angle-up-toggle")
     });
     
     $(".panel-text").click(function(){

@@ -696,7 +696,7 @@ ul{
     background-position:center;
     background-size:cover;
     color:#fff;
-    padding:40px 0;
+    padding:80px;
     letter-spacing:1.5px;
 }
 
@@ -725,7 +725,7 @@ ul{
 }
 
 .specialdetail .txtl{
-    margin:20px 0;
+    margin:20px auto;
 }
 
 .specialdetail h2{
@@ -771,6 +771,10 @@ ul{
     padding:40px 0;
 }
 
+.flowdetailpc{
+    margin-top:40px
+}
+
 .flowbox{
     background-color:#fef5e0;
     width:1170px;
@@ -787,6 +791,10 @@ ul{
     width:200px;
 }
 
+.flowleft--spacer{
+    margin-top:16px;
+}
+
 .flowbox p{
     margin:20px 0;
 }
@@ -794,6 +802,18 @@ ul{
 .flowleft .txtm{
     margin-bottom:0;
     font-size:18px;
+}
+
+.flowright{
+    text-align:left;
+}
+
+.flowright .txts{
+    font-size:16px;
+}
+
+.flowright .txtxs{
+    font-size:14px;
 }
 
 .flowline{
@@ -811,8 +831,9 @@ ul{
     margin-bottom:40px;
 }
 
-.special .txts{
+.special-description{
     font-size:16px;
+    font-weight:bold;
 }
 
 .special p{
@@ -853,6 +874,7 @@ ul{
     height:250px;
     vertical-align:middle;
     display:table-cell;
+    box-sizing:border-box;
 }
 
 .special-text{
@@ -882,14 +904,15 @@ ul{
 
 .left-pic{
     padding:0 20px;
-    width:25%;
+    width:190px;
 }
 
 .right-text{
     padding:0 20px;
     text-align:left;
     font-size:14px;
-    width:75%;
+    width:670px;
+    line-height:22.4px;
 }
 
 .contactform{
@@ -917,13 +940,14 @@ ul{
     margin:0 auto;
 }
 
-#of-form input{
+.of-form-input{
     width:100%;
     height:55px;
     border-radius:5px;
     padding:10px;
     margin-bottom:25px;
     border:none;
+    box-sizing:border-box;
 }
 
 .submit-button{
@@ -949,6 +973,8 @@ ul{
     background-color:#fff;
     color:#000000;
     border:1px solid #e5e5e5;
+    cursor:pointer;
+    display:flex;
 }
 
 .panel-title{
@@ -958,7 +984,7 @@ ul{
     display:flex;
 }
 
-.panel-title .far{
+.panel-heading .far{
     align-self:center;
     color:#016ea9;
 }
@@ -979,12 +1005,12 @@ ul{
 
 .question-toggle{
     color:#e5e5e5;
-    margin-left:auto;
+    
     align-self:center;
 }
 
 .angle-up-toggle{
-    display:none;
+    
     margin-left:auto;
     align-self:center;
     color:#e5e5e5;
