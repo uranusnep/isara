@@ -55,6 +55,10 @@ body{
     margin-left:auto;
 }
 
+.btn:hover{
+    background-color:#d84940;
+}
+
 .contacttxt{
     font-size:12px;
     font-weight:300;
@@ -1027,6 +1031,19 @@ ul{
 .answer-text{
     font-size:16px;
     font-weight:600;
+}
+
+.pagetop{
+    background-color:#ececec;
+    position:fixed;
+    bottom:90px;
+    right:50px;
+    cursor:pointer;
+    padding:20px;
+}
+
+.pagetop .fas{
+    font-size:30px;
 }
 
 .footerwrap{
