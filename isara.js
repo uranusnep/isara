@@ -24,13 +24,15 @@ $(function(){
         $("html, body").animate({scrollTop:0},"slow");
     });
     
+    var headerHeight = $('header').height();
+
     $(".btn").click(function(){
-        var down = $(".contactform").offset().top;
+        var down = $(".contactform").offset().top - headerHeight;
         $("html, body").animate({scrollTop:down},"slow");
     });
     
     $(".conversionbtn").click(function() {
-        var down = $(".contactform").offset().top;
+        var down = $(".contactform").offset().top - headerHeight;
         $("html, body").animate({scrollTop:down},"slow");
     });
     
